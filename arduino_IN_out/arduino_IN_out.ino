@@ -20,5 +20,5 @@ void loop() {
   Serial.print("\t output = ");
   Serial.print(outputValue);
 
-  delay(30);
+  delay(2);
 }
