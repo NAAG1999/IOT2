@@ -2,7 +2,7 @@ int ledPin = 9;
 int sensorPin = A0;
 
 int sensorValue = 0;        // value read from the pot
-int outputValue = 0;        // value output to the PWM (analog out)
+int outputvalue = 0;        // value output to the PWM (analog out)
 
 void setup() {
   // put your setup code here, to run once:
@@ -16,9 +16,9 @@ void loop() {
   analogWrite(ledPin, outputvalue);
    
   Serial.print("sensor = ");
-  Serial.print(sensorValue);
-  Serial.print("\t output = ");
-  Serial.print(outputValue);
+  Serial.println(sensorValue);
+  Serial.print("output = ");
+  Serial.println(outputvalue);
 
-  delay(2);
+  delay(1000);
 }
