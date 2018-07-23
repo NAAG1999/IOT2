@@ -1,3 +1,4 @@
+//To use following code, import the GSM library file first
 //ERFINDER CODE
 #include <SoftwareSerial.h>
 
